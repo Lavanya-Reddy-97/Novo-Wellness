@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "final Menta/final Mental Health/delightful-hey-there-main/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "final Menta/final Mental Health/delightful-hey-there-main/dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/final Menta/final Mental Health/delightful-hey-there-main/index.html"
+    }
+  ]
+}
